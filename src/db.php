@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = ""; // Empty string for the default XAMPP MySQL setup
-$dbname = "todo_list";
+$dbname = "web";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
